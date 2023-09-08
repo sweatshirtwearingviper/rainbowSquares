@@ -23,7 +23,6 @@ while True:
             pygame.quit()
             exit()
 
-    #rygibv
     for square in squares:
         square.collision(pygame.mouse.get_pos())
         screen.blit(square.surf,square.rect)
